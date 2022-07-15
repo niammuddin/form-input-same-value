@@ -1,0 +1,22 @@
+<html>
+
+<body>
+
+
+
+<form method="POST">
+<input type="text" id="name">
+<br><br>
+<input type="text" id="pass">
+<input type="submit" class="button" value="Masuk" />
+</form>
+
+
+<script>
+    document.getElementById("name").addEventListener("input", function(){
+        document.getElementById("pass").value = this.value;
+    });
+    </script>
+
+ </body>
+ </html>
